@@ -72,7 +72,7 @@ export default function Calculator() {
   const buttonClass = "w-16 h-16 text-xl font-semibold rounded-full transition-colors duration-200"
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center p-4">
+    <div className="min-h-screen bg-gradient-to-br from-purple-500 to-pink-500 flex flex-col items-center justify-center p-4">
       <div className="bg-white rounded-3xl shadow-2xl overflow-hidden">
         <div className="p-6 bg-gray-100">
           <div className="text-right text-4xl font-bold text-gray-800 h-16 flex items-center justify-end overflow-x-auto">
@@ -103,6 +103,13 @@ export default function Calculator() {
           <Button onClick={handleDecimal} className={`${buttonClass} bg-gray-100 hover:bg-gray-200 text-gray-800`}>.</Button>
         </div>
       </div>
+      
+      {/* Footer */}
+      <footer className="bg-gradient-to-br from-purple-500 to-pink-500 text-white py-6 mt-8 w-full">
+        <div className="text-center">
+          <p className="text-2xl font-bold">Made By Taha Saif (GIAIC Student)</p>
+        </div>
+      </footer>
     </div>
   )
 }
