@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# Simple Calculator App
 
-First, run the development server:
+This **Simple Calculator App** is a web-based calculator built with **Next.js**, **TypeScript**, and **Tailwind CSS**. It provides an intuitive and minimalistic user interface, allowing users to perform basic arithmetic operations like addition, subtraction, multiplication, and division. The app is fully responsive and designed with clean, modern styling using Tailwind CSS.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features:
+- **Basic Arithmetic:** Perform addition, subtraction, multiplication, and division.
+- **Responsive Design:** Adjusts seamlessly across different devices and screen sizes.
+- **Clear Button:** Reset the display and start fresh with the `AC` button.
+- **Decimal Support:** Handle decimal calculations smoothly.
+- **Modern UI:** Styled with Tailwind CSS for a sleek, professional look.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technologies Used:
+- **Next.js** for server-side rendering and static site generation.
+- **TypeScript** for type-safe development.
+- **Tailwind CSS** for fast, modern styling.
+- **React** (integrated within Next.js) for building the interactive user interface.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## How to Run:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Tahasaif3/Simple-Calculator-App.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd Simple-Calculator-App
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Live Demo:
+Check out the live version [here](https://simple-calculator-app-mocha.vercel.app/)!
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
